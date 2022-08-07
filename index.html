@@ -249,7 +249,7 @@
                 <h3 class="our-team__names">Николай Тарасов</h3>
 
                 <p class="our-team__position">Marketing</p>
-               <div class="social-net">
+                <div class="social-net">
                   <a class="social-net__link" href="#">
                     <svg class="social-net__icon">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -366,7 +366,9 @@
           <a href="/" class="footer-logo"
             >Web<span class="footer-logo__accent">Studio</span></a
           >
-          <address class="footer__adress">м. Київ, пр-т Лесі Українки, 26</address>
+          <address class="footer__adress">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
           <ul class="footer-contacts">
             <li class="footer-contacts__list">
               <a class="footer-contacts__item" href="mailto:info@devstudio.com:"
@@ -422,54 +424,53 @@
               </svg>
             </button>
           </form>
-         </div>
-       </div>
+        </div>
+      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button class="modal__close-btn" data-modal-close>
-            <svg class="modal__icon" aria-hidden="true">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-          <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
-          <form>
-            <div class="field-group">
-              <label class="field-group__label" for="user-name">Ім'я</label>
-              <div class="field-group__container">
-                <input
-                  class="field-group__input"
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                />
-                <svg class="field-group__icon">
-                  <use href="./images/icons.svg#icon-person-black"></use>
-                </svg>
-              </div>
-              <label class="field-group__label" for="tel">Телефон</label>
-              <div class="field-group__container">
-                <input class="field-group__input" type="tel" id="tel" />
-                <svg class="field-group__icon">
-                  <use href="./images/icons.svg#icon-phone-black"></use>
-                </svg>
-              </div>
-              <label class="field-group__label" for="mail">Пошта</label>
-              <div class="field-group__container">
-                <input class="field-group__input" type="email" />
-                <svg class="field-group__icon">
-                  <use href="./images/icons.svg#icon-email-black"></use>
-                </svg>
-              </div>
-              <label class="field-group__label" for="comment">Коментар</label>
-              <textarea
-                id="comment"
-                class="field-group__textarea"
-                name="comment"
-                rows="10"
-                placeholder="Введіть текст"
-              ></textarea>
+      <div class="modal">
+        <button class="modal__close-btn" data-modal-close>
+          <svg class="modal__icon" aria-hidden="true">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form>
+          <div class="field-group">
+            <label class="field-group__label" for="user-name">Ім'я</label>
+            <div class="field-group__container">
+              <input
+                class="field-group__input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="field-group__icon">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
             </div>
+            <label class="field-group__label" for="tel">Телефон</label>
+            <div class="field-group__container">
+              <input class="field-group__input" type="tel" id="tel" />
+              <svg class="field-group__icon">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+            <label class="field-group__label" for="mail">Пошта</label>
+            <div class="field-group__container">
+              <input class="field-group__input" type="email" />
+              <svg class="field-group__icon">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <label class="field-group__label" for="comment">Коментар</label>
+            <textarea
+              id="comment"
+              class="field-group__textarea"
+              name="comment"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
             <label class="field-group__policy-label">
               <input
                 class="field-group__checkbox visually-hidden"
@@ -492,10 +493,13 @@
                 <a class="policy-link" href="#"> Умови договору</a></span
               >
             </label>
-            <button class="field-group__send-button" type="submit">Відправити</button>
-            </div>
-          </form>
+            <button class="field-group__send-button" type="submit">
+              Відправити
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-        <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
