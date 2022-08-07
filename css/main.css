@@ -66,6 +66,17 @@ body {
   padding-bottom: 32px;
 }
 
+.nav__link {
+  color: #212121;
+  text-decoration: none;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
 .nav__link::after {
   position: absolute;
   left: 0;
@@ -87,22 +98,11 @@ body {
   color: #2196f3;
 }
 
-.nav__link {
-  color: #212121;
-  text-decoration: none;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-property: color;
-  transition-property: color;
-}
-
 .nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav__item a:hover, .nav__item a:focus {
+.nav__item .nav__link:hover, .nav__item .nav__link:focus {
   color: #2196f3;
 }
 

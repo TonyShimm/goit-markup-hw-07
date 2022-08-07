@@ -19,6 +19,14 @@
   padding-bottom: 32px;
 }
 
+.nav__link {
+  color: $main-color-black;
+  text-decoration: none;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: color;
+}
+
 .nav__link::after {
   position: absolute;
   left: 0;
@@ -41,19 +49,11 @@
   color: $main-color-blue;
 }
 
-.nav__link {
-  color: $main-color-black;
-  text-decoration: none;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: color;
-}
-
 .nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav__item a {
+.nav__item .nav__link {
   &:hover,
   &:focus {
     color: $main-color-blue;
